@@ -1,0 +1,10 @@
+.imgFood{
+    width: 4rem;
+    height: 3rem;
+    display: flex;
+    margin: auto;
+}
+.imgF{
+    width: 100%;
+    object-fit: cover;
+}
