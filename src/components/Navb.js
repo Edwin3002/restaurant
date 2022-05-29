@@ -4,7 +4,7 @@ import { Button, Container, Nav, Navbar } from 'react-bootstrap'
 import '../style/navbar.css'
 export const Navb = () => {
   return (
-    <Navbar className='navbar text-light' expand="lg">
+    <Navbar fixed="top" className='navbar text-light' expand="lg">
       <Container>
         <Navbar.Brand href="#home" className='link'>React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

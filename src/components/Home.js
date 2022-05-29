@@ -4,7 +4,7 @@ import { Footer } from './Footer'
 
 export const Home = () => {
   return (
-    <div>
+    <div className='mt-5 pt-3'>
         <CarouselC/>
         <Footer/>
     </div>
